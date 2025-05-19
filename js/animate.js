@@ -6,10 +6,6 @@ $(function(){//비동기로 실행
     sec.animate({fontSize:'3rem'}, "slow");
  })
 
-
-
-
-
    $("button.timeB").click(function(){
     //비동기로 실행될 박스에 대해 변수설정
     var d = $("div.time"); //변수 div는 time이라는 클래스를 가진 div
